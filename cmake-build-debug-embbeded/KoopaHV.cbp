@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KoopaHV"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lee/code/KoopaHV/cmake-build-debug-embbeded"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lee/code/KoopaHV/cmake-build-debug-embbeded"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lee/code/KoopaHV/cmake-build-debug-embbeded"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KoopaHV.elf">
+				<Option output="/home/lee/code/KoopaHV/cmake-build-debug-embbeded/KoopaHV.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lee/code/KoopaHV/cmake-build-debug-embbeded"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lee/code/KoopaHV/src"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 KoopaHV.elf"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KoopaHV.elf/fast">
+				<Option output="/home/lee/code/KoopaHV/cmake-build-debug-embbeded/KoopaHV.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lee/code/KoopaHV/cmake-build-debug-embbeded"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lee/code/KoopaHV/src"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 KoopaHV.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/lee/code/KoopaHV/cmake-build-debug-embbeded/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lee/code/KoopaHV/src/arch/boot.S">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/arch/mm.S">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/arch/mm.h">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/bsp/rasp4/config.txt">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/bsp/rasp4/io.c">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/bsp/rasp4/io.h">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/bsp/rasp4/kernel.c">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/linker.ld">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/util/type.h">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/util/utils.S">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/util/utils.h">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

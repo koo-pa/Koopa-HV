@@ -1,0 +1,3 @@
+/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles/edit_cache.dir
+/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles/rebuild_cache.dir
+/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles/KoopaHV.elf.dir

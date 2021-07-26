@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/util/type.h
+
+../src/util/utils.h
+type.h
+../src/util/type.h
+
+/home/lee/code/KoopaHV/src/bsp/rasp4/io.c
+io.h
+/home/lee/code/KoopaHV/src/bsp/rasp4/io.h
+
+/home/lee/code/KoopaHV/src/bsp/rasp4/io.h
+util/utils.h
+/home/lee/code/KoopaHV/src/bsp/rasp4/util/utils.h
+util/type.h
+/home/lee/code/KoopaHV/src/bsp/rasp4/util/type.h
+
+/home/lee/code/KoopaHV/src/bsp/rasp4/kernel.c
+io.h
+/home/lee/code/KoopaHV/src/bsp/rasp4/io.h
+

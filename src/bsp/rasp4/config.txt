@@ -1,0 +1,7 @@
+[pi4]
+kernel=kernel8.img
+
+[all]
+arm_64bit=1
+core_freq_min=500
+enable_gic=1
