@@ -100,22 +100,35 @@ CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.s"
 	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lee/code/KoopaHV/src/bsp/rasp4/io.c -o CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.s
 
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o: CMakeFiles/KoopaHV.elf.dir/flags.make
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o: ../src/bsp/rasp4/kernel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o"
-	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o   -c /home/lee/code/KoopaHV/src/bsp/rasp4/kernel.c
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: CMakeFiles/KoopaHV.elf.dir/flags.make
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: ../src/kernel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o"
+	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o   -c /home/lee/code/KoopaHV/src/kernel.c
 
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.i"
-	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lee/code/KoopaHV/src/bsp/rasp4/kernel.c > CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.i
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/KoopaHV.elf.dir/src/kernel.c.i"
+	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lee/code/KoopaHV/src/kernel.c > CMakeFiles/KoopaHV.elf.dir/src/kernel.c.i
 
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.s"
-	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lee/code/KoopaHV/src/bsp/rasp4/kernel.c -o CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.s
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/KoopaHV.elf.dir/src/kernel.c.s"
+	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lee/code/KoopaHV/src/kernel.c -o CMakeFiles/KoopaHV.elf.dir/src/kernel.c.s
+
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: CMakeFiles/KoopaHV.elf.dir/flags.make
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: ../src/util/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o"
+	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o   -c /home/lee/code/KoopaHV/src/util/printf.c
+
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.i"
+	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lee/code/KoopaHV/src/util/printf.c > CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.i
+
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.s"
+	aarch64-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lee/code/KoopaHV/src/util/printf.c -o CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.s
 
 CMakeFiles/KoopaHV.elf.dir/src/util/utils.S.o: CMakeFiles/KoopaHV.elf.dir/flags.make
 CMakeFiles/KoopaHV.elf.dir/src/util/utils.S.o: ../src/util/utils.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building ASM object CMakeFiles/KoopaHV.elf.dir/src/util/utils.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/KoopaHV.elf.dir/src/util/utils.S.o"
 	aarch64-linux-gnu-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/KoopaHV.elf.dir/src/util/utils.S.o -c /home/lee/code/KoopaHV/src/util/utils.S
 
 # Object files for target KoopaHV.elf
@@ -123,7 +136,8 @@ KoopaHV_elf_OBJECTS = \
 "CMakeFiles/KoopaHV.elf.dir/src/arch/boot.S.o" \
 "CMakeFiles/KoopaHV.elf.dir/src/arch/mm.S.o" \
 "CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.o" \
-"CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o" \
+"CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o" \
+"CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o" \
 "CMakeFiles/KoopaHV.elf.dir/src/util/utils.S.o"
 
 # External object files for target KoopaHV.elf
@@ -132,11 +146,12 @@ KoopaHV_elf_EXTERNAL_OBJECTS =
 KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/src/arch/boot.S.o
 KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/src/arch/mm.S.o
 KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.o
-KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o
+KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o
+KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o
 KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/src/util/utils.S.o
 KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/build.make
 KoopaHV.elf: CMakeFiles/KoopaHV.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable KoopaHV.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable KoopaHV.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KoopaHV.elf.dir/link.txt --verbose=$(VERBOSE)
 	aarch64-linux-gnu-objcopy -O binary /home/lee/code/KoopaHV/cmake-build-debug-embbeded/KoopaHV.elf /home/lee/code/KoopaHV/cmake-build-debug-embbeded/KoopaHV.bin
 	cp /home/lee/code/KoopaHV/cmake-build-debug-embbeded/KoopaHV.bin /home/lee/code/KoopaHV/kernel8.img

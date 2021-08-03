@@ -149,6 +149,11 @@ void uart_writeText(char *buffer) {
     }
 }
 
+void uart_writeChar(char buffer) {
+    if (buffer == '\n') uart_writeByteBlocking('\r');
+    uart_writeByteBlocking(buffer);
+}
+
 void uart_drainOutputQueue() {
     while (!uart_isOutputQueueEmpty()) uart_loadOutputFifo();
 }
@@ -158,6 +163,7 @@ void uart_update() {
 
     if (uart_isReadByteReady()) {
         uint8_t ch = uart_readByte();
-        if (ch == '\r') uart_writeText("\n"); else uart_writeByteBlocking(ch);
+        if (ch == '\r') uart_writeText("\n");
+        else uart_writeByteBlocking(ch);
     }
 }

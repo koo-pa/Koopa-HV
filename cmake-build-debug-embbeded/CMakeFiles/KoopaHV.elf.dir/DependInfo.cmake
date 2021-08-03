@@ -17,7 +17,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/home/lee/code/KoopaHV/src/bsp/rasp4/io.c" "/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.o"
-  "/home/lee/code/KoopaHV/src/bsp/rasp4/kernel.c" "/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o"
+  "/home/lee/code/KoopaHV/src/kernel.c" "/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o"
+  "/home/lee/code/KoopaHV/src/util/printf.c" "/home/lee/code/KoopaHV/cmake-build-debug-embbeded/CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

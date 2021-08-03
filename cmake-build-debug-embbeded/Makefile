@@ -188,32 +188,59 @@ src/bsp/rasp4/io.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.s
 .PHONY : src/bsp/rasp4/io.c.s
 
-src/bsp/rasp4/kernel.o: src/bsp/rasp4/kernel.c.o
+src/kernel.o: src/kernel.c.o
 
-.PHONY : src/bsp/rasp4/kernel.o
+.PHONY : src/kernel.o
 
 # target to build an object file
-src/bsp/rasp4/kernel.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o
-.PHONY : src/bsp/rasp4/kernel.c.o
+src/kernel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o
+.PHONY : src/kernel.c.o
 
-src/bsp/rasp4/kernel.i: src/bsp/rasp4/kernel.c.i
+src/kernel.i: src/kernel.c.i
 
-.PHONY : src/bsp/rasp4/kernel.i
+.PHONY : src/kernel.i
 
 # target to preprocess a source file
-src/bsp/rasp4/kernel.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.i
-.PHONY : src/bsp/rasp4/kernel.c.i
+src/kernel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/kernel.c.i
+.PHONY : src/kernel.c.i
 
-src/bsp/rasp4/kernel.s: src/bsp/rasp4/kernel.c.s
+src/kernel.s: src/kernel.c.s
 
-.PHONY : src/bsp/rasp4/kernel.s
+.PHONY : src/kernel.s
 
 # target to generate assembly for a file
-src/bsp/rasp4/kernel.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.s
-.PHONY : src/bsp/rasp4/kernel.c.s
+src/kernel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/kernel.c.s
+.PHONY : src/kernel.c.s
+
+src/util/printf.o: src/util/printf.c.o
+
+.PHONY : src/util/printf.o
+
+# target to build an object file
+src/util/printf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o
+.PHONY : src/util/printf.c.o
+
+src/util/printf.i: src/util/printf.c.i
+
+.PHONY : src/util/printf.i
+
+# target to preprocess a source file
+src/util/printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.i
+.PHONY : src/util/printf.c.i
+
+src/util/printf.s: src/util/printf.c.s
+
+.PHONY : src/util/printf.s
+
+# target to generate assembly for a file
+src/util/printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KoopaHV.elf.dir/build.make CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.s
+.PHONY : src/util/printf.c.s
 
 src/util/utils.o: src/util/utils.S.o
 
@@ -238,9 +265,12 @@ help:
 	@echo "... src/bsp/rasp4/io.o"
 	@echo "... src/bsp/rasp4/io.i"
 	@echo "... src/bsp/rasp4/io.s"
-	@echo "... src/bsp/rasp4/kernel.o"
-	@echo "... src/bsp/rasp4/kernel.i"
-	@echo "... src/bsp/rasp4/kernel.s"
+	@echo "... src/kernel.o"
+	@echo "... src/kernel.i"
+	@echo "... src/kernel.s"
+	@echo "... src/util/printf.o"
+	@echo "... src/util/printf.i"
+	@echo "... src/util/printf.s"
 	@echo "... src/util/utils.o"
 .PHONY : help
 

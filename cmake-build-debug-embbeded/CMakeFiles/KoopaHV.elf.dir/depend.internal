@@ -14,8 +14,19 @@ CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.o
  ../src/util/utils.h
  /home/lee/code/KoopaHV/src/bsp/rasp4/io.c
  /home/lee/code/KoopaHV/src/bsp/rasp4/io.h
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o
  ../src/util/type.h
  ../src/util/utils.h
  /home/lee/code/KoopaHV/src/bsp/rasp4/io.h
- /home/lee/code/KoopaHV/src/bsp/rasp4/kernel.c
+ /home/lee/code/KoopaHV/src/kernel.c
+ /home/lee/code/KoopaHV/src/util/printf.h
+ /home/lee/code/KoopaHV/src/util/stdarg.h
+ /home/lee/code/KoopaHV/src/util/type.h
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o
+ ../src/bsp/rasp4/io.h
+ ../src/util/type.h
+ ../src/util/utils.h
+ /home/lee/code/KoopaHV/src/util/printf.c
+ /home/lee/code/KoopaHV/src/util/printf.h
+ /home/lee/code/KoopaHV/src/util/stdarg.h
+ /home/lee/code/KoopaHV/src/util/type.h

@@ -6,17 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../src/util/type.h
-
-/home/lee/code/KoopaHV/src/arch/boot.S
-mm.h
-/home/lee/code/KoopaHV/src/arch/mm.h
-
-/home/lee/code/KoopaHV/src/arch/mm.S
-
-/home/lee/code/KoopaHV/src/arch/mm.h
-util/type.h
-/home/lee/code/KoopaHV/src/arch/util/type.h
-
-/home/lee/code/KoopaHV/src/util/utils.S
-

@@ -96,10 +96,19 @@
 		<Unit filename="/home/lee/code/KoopaHV/src/bsp/rasp4/io.h">
 			<Option target="KoopaHV.elf"/>
 		</Unit>
-		<Unit filename="/home/lee/code/KoopaHV/src/bsp/rasp4/kernel.c">
+		<Unit filename="/home/lee/code/KoopaHV/src/kernel.c">
 			<Option target="KoopaHV.elf"/>
 		</Unit>
 		<Unit filename="/home/lee/code/KoopaHV/src/linker.ld">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/util/printf.c">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/util/printf.h">
+			<Option target="KoopaHV.elf"/>
+		</Unit>
+		<Unit filename="/home/lee/code/KoopaHV/src/util/stdarg.h">
 			<Option target="KoopaHV.elf"/>
 		</Unit>
 		<Unit filename="/home/lee/code/KoopaHV/src/util/type.h">

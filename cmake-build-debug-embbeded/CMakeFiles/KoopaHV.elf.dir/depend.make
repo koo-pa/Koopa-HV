@@ -14,8 +14,19 @@ CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.o: ../src/util/utils.h
 CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.o: ../src/bsp/rasp4/io.c
 CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/io.c.o: ../src/bsp/rasp4/io.h
 
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o: ../src/util/type.h
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o: ../src/util/utils.h
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o: ../src/bsp/rasp4/io.h
-CMakeFiles/KoopaHV.elf.dir/src/bsp/rasp4/kernel.c.o: ../src/bsp/rasp4/kernel.c
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: ../src/util/type.h
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: ../src/util/utils.h
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: ../src/bsp/rasp4/io.h
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: ../src/kernel.c
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: ../src/util/printf.h
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: ../src/util/stdarg.h
+CMakeFiles/KoopaHV.elf.dir/src/kernel.c.o: ../src/util/type.h
+
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: ../src/bsp/rasp4/io.h
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: ../src/util/type.h
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: ../src/util/utils.h
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: ../src/util/printf.c
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: ../src/util/printf.h
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: ../src/util/stdarg.h
+CMakeFiles/KoopaHV.elf.dir/src/util/printf.c.o: ../src/util/type.h
 
