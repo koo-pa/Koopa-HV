@@ -1,5 +1,5 @@
-#ifndef CHOCOHV_IO_H
-#define CHOCOHV_IO_H
+#ifndef KOOPAHV_IO_H
+#define KOOPAHV_IO_H
 
 #include "util/utils.h"
 #include "util/type.h"
@@ -13,4 +13,4 @@ unsigned int uart_isReadByteReady();
 void uart_writeByteBlocking(uint8_t ch);
 void uart_update();
 
-#endif //CHOCOHV_IO_H
+#endif //KOOPAHV_IO_H

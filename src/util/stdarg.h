@@ -1,5 +1,5 @@
-#ifndef CHOCOHV_STDARGE_H
-#define CHOCOHV_STDARGE_H
+#ifndef KOOPAHV_STDARGE_H
+#define KOOPAHV_STDARGE_H
 
 typedef __builtin_va_list __gnuc_va_list;
 typedef __gnuc_va_list va_list;

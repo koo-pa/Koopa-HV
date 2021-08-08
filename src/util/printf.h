@@ -1,5 +1,5 @@
-#ifndef CHOCOHV_PRINTF_H
-#define CHOCOHV_PRINTF_H
+#ifndef KOOPAHV_PRINTF_H
+#define KOOPAHV_PRINTF_H
 
 ///////////////////////////////////////////////////////////////////////////////
 // \author (c) Marco Paland (info@paland.com)

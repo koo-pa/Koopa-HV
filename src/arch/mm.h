@@ -1,5 +1,5 @@
-#ifndef CHOCOHV_MM_H
-#define CHOCOHV_MM_H
+#ifndef KOOPAHV_MM_H
+#define KOOPAHV_MM_H
 #include "util/type.h"
 #define PAGE_SHIFT	 		12
 #define TABLE_SHIFT 			9
@@ -13,4 +13,4 @@
 extern void memzero(uint64_t , uint64_t);
 #endif
 
-#endif //CHOCOHV_MM_H
+#endif //KOOPAHV_MM_H

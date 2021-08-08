@@ -1,5 +1,5 @@
-#ifndef CHOCOHV_TYPE_H
-#define CHOCOHV_TYPE_H
+#ifndef KOOPAHV_TYPE_H
+#define KOOPAHV_TYPE_H
 
 #ifndef __ASSEMBLER__
 #define bool	_Bool
@@ -18,4 +18,4 @@ typedef unsigned long int       uintmax_t;
 
 #endif
 
-#endif //CHOCOHV_TYPE_H
+#endif //KOOPAHV_TYPE_H
